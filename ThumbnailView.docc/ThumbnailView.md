@@ -15,7 +15,7 @@
 #### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/ThumbnailView.git", .upToNextMajor(from: "0.1.0"))
+.package(url: "https://github.com/jaemyeong/ThumbnailView.git", .upToNextMajor(from: "0.1.1"))
 ```
 
 ### Usage
