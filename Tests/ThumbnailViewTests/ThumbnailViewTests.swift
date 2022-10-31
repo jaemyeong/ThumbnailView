@@ -1,3 +1,5 @@
+#if canImport(UIKit)
+
 import XCTest
 
 @testable import ThumbnailView
@@ -35,3 +37,5 @@ public final class ThumbnailViewTests: XCTestCase {
         XCTAssertTrue(thumbnailView.isLoading)
     }
 }
+
+#endif
