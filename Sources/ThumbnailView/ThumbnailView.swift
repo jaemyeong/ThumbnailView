@@ -1,3 +1,5 @@
+#if canImport(UIKit)
+
 import UIKit
 import OpenColorKit
 import ErrorKit
@@ -73,7 +75,6 @@ extension ThumbnailView {
     
     private func configureActivityIndicatorView() {
         let activityIndicatorView = self.activityIndicatorView
-        activityIndicatorView.hidesWhenStopped = false
         activityIndicatorView.startAnimating()
     }
     
@@ -114,3 +115,5 @@ extension ThumbnailView {
         ])
     }
 }
+
+#endif
