@@ -6,7 +6,7 @@ ThumbnailView 스위프트 패키지 입니다.
 
 ### Requirements
 
-- macOS 12.6
+- macOS Ventura 13.0
 - Xcode 14.0.1
 - iOS 13.0
 
@@ -15,7 +15,7 @@ ThumbnailView 스위프트 패키지 입니다.
 #### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/ThumbnailView.git", .upToNextMajor(from: "0.1.1"))
+.package(url: "https://github.com/jaemyeong/ThumbnailView.git", .upToNextMajor(from: "0.1.2"))
 ```
 
 ### Usage
