@@ -1,3 +1,5 @@
+#if canImport(UIKit)
+
 import UIKit
 import OpenColorKit
 import ErrorKit
@@ -113,3 +115,5 @@ extension ThumbnailView {
         ])
     }
 }
+
+#endif
