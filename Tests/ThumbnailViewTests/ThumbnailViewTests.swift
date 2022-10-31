@@ -18,18 +18,18 @@ public final class ThumbnailViewTests: XCTestCase {
         self.thumbnailView = nil
     }
     
-    func testIsLoading() throws {
+    public func testIsLoading() throws {
         let thumbnailView = try XCTUnwrap(self.thumbnailView)
         XCTAssertTrue(thumbnailView.isLoading)
     }
     
-    func testSetImage() throws {
+    public func testSetImage() throws {
         let thumbnailView = try XCTUnwrap(self.thumbnailView)
         thumbnailView.image = UIImage()
         XCTAssertFalse(thumbnailView.isLoading)
     }
     
-    func testUnsetImage() throws {
+    public func testUnsetImage() throws {
         let thumbnailView = try XCTUnwrap(self.thumbnailView)
         thumbnailView.image = nil
         XCTAssertTrue(thumbnailView.isLoading)
