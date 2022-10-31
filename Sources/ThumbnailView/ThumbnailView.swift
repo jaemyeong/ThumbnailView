@@ -73,7 +73,6 @@ extension ThumbnailView {
     
     private func configureActivityIndicatorView() {
         let activityIndicatorView = self.activityIndicatorView
-        activityIndicatorView.hidesWhenStopped = false
         activityIndicatorView.startAnimating()
     }
     
